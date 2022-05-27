@@ -4,10 +4,38 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/main.css">
-  <title>SCSS BEM STARTER</title>
+  <link rel="stylesheet" href="./css/main.min.css">
+  <title>6-dars</title>
 </head>
-<body>
+<body class="body">
 
+  <form class="form " >
+    <div class="container p-5">
+      <div class=" d-flex align-items-center justify-content-between mb-5">
+
+      <div>
+        <input type="Number" class="form__input p-3" placeholder="summani kiriting ">
+      </div>
+
+      <div>
+        <select name="" id="" class="w25 form__select p-3">
+          <option value="USD">USD</option>
+          <option value="EURO">EURO</option>
+          <option value="RUB">RUB</option>
+
+        </select>
+      </div>
+
+      <div class="form__result bg-light "></div>
+      </div>
+
+      <div class="text-center"> <button class="btn btn-danger mx-auto p-3 " type="submit" >hisoblash</button> </div>
+
+
+    </div>
+  </form>
+
+
+  <script src="./js/index.js"></script>
 </body>
 </html>

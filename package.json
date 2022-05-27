@@ -1,0 +1,23 @@
+{
+  "name": "3-oy-6-dars",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azimergashov/3-oy-6-dars.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azimergashov/3-oy-6-dars/issues"
+  },
+  "homepage": "https://github.com/azimergashov/3-oy-6-dars#readme",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
